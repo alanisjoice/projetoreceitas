@@ -1,4 +1,18 @@
-html {
-  height: 100%;
-  width: 100%;
-}
+table {
+          width: 100%;
+          border-collapse: collapse; /* Remove espaços entre as bordas */
+      }
+      th, td {
+          border: 2px solid black; /* Adiciona bordas às células */
+          padding: 8px; /* Adiciona espaçamento interno às células */
+          text-align: center;
+      }
+      th {
+          background-color: yellow; /* Cor de fundo para o cabeçalho */
+          color:black; /* Cor do texto no cabeçalho */
+      }
+
+      h1 {
+          color: black;
+      }
+wtz-xpxt-phs
