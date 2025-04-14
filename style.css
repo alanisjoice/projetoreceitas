@@ -10,8 +10,8 @@ table {
       th {
           background-color: yellow; /* Cor de fundo para o cabeçalho */
           color:black; /* Cor do texto no cabeçalho */
-      }
-      #recistas {
+    }
+    #receitas {
         background-color: bisque;
         border: 2px solidrgb(243, 243, 176)c;
         padding: 20px;
