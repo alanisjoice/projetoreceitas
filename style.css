@@ -13,10 +13,10 @@ table {
       }
 
       h1 {
-          color: black;
-      }#receitas
-        background-color: rgb(223, 247, 11);
-        border: 2px solid rgb(131, 236, 152);
-        padding: 20px; 
-        
-wtz-xpxt-phs
+          
+        .titulo{
+            color: pink;
+            font-weight: bold;
+            font-size: 18px;
+            font-family: cursive;
+        }
