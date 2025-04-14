@@ -12,9 +12,8 @@ table {
           color:black; /* Cor do texto no cabeçalho */
       }
 
-      h1 
-          
-        .titulo{
+           
+    .titulo{
             color: yellow;
             font-weight: bold;
             font-size: 18px;
