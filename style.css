@@ -11,8 +11,18 @@ table {
           background-color: yellow; /* Cor de fundo para o cabeçalho */
           color:black; /* Cor do texto no cabeçalho */
       }
-
+      #recistas {
+        background-color: bisque;
+        border: 2px solidrgb(243, 243, 176)c;
+        padding: 20px;
+      }
            
+      footer{
+        color: brown;
+        background-color: brown;
+        padding: 40px;
+      }
+      
     .titulo{
             color: yellow;
             font-weight: bold;
