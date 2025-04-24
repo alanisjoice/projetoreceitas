@@ -12,14 +12,14 @@ table {
           color:black; /* Cor do texto no cabeçalho */
     }
     #receitas {
-        background-color: bisque;
+        background-color: rgb(247, 255, 12);
         border: 2px solidrgb(243, 243, 176)c;
         padding: 20px;
       }
            
       footer{
-        color: brown;
-        background-color: brown;
+        color: rgb(6, 78, 44);
+        background-color: rgb(6, 72, 39);
         padding: 40px;
       }
 
