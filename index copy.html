@@ -21,3 +21,36 @@
   <option value="Pastel">Pastel</option>
   <option value="Quibe">quibe</option>
 </select>
+
+<label for="Descrição">Descreva seu pedido:</label>
+<textarea id="Descrição" name="Descrição" rows="4" required></textarea>
+
+<label for="restricao">posui alguma restricao alimentar?</label>
+<textarea id="restricao" name="restricao" rows="2" placeholder="sem lactose, sem gluten..."></textarea>
+
+<label for="pagamento">forma de pagamento:</label>
+<select id="pagamento" name="pagamento" required>
+  <option value="" >selecionar uma opicao</option>
+  <option value="Pix" >pix</option>
+  <option value="Cartao" >Cartao de credito</option>
+  <option value="Boleto" >boleto</option>
+  <option value="Dinheiro" >Dinheiro na entrega</option>
+</select>
+
+<label for="data">data de encomenda:</label>
+<input type="data" id="data" name="data" required>
+
+<label for="hora">horario desejado:</label>
+<input type="time" id="hora" name="hora" required>
+
+<label for="entrega">como deseja receber</label>
+<select id="entrega" name="entrega" required>
+  <option value="">selecione uma opicao</option>
+  <option value="entrega">entrega</option>
+  <option value="retirada">retirada</option>
+</select>
+
+<button type="submit">enviar pedido</button>
+
+</form>
+</div>
