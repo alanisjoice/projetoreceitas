@@ -1,72 +1,80 @@
-<div class="form-container">
-  <h2>Faca sua encomenda</h2>
-  <form action="#" method="post">
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<meta name="viewport" content="width=device-width"
- <title> Faça sua encomemda </title>
- <link rel="stylesheet" href="Encomendas.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+   <link rel="stylesheet" href="encomenda.css">
 
-<body style="background-color: blueviolet;">
+<body>
+  <img src="banner.png" width="100%" height="600">
+
   <main>
-    <img src="banner.png" width="100%" height="400">
-         <h1>Faça aqui sua encomenda</h1>
-    <div class="form-container">
-    <h2> Faça sua encomenda </h2>
-    <form action="https://formspree.io/f/mvganqpv" method="post">
-  
 
-<label for="nome">Nome:</label>
-<imput type="text" id="nome" name="nome" required>
+<div class="form-container">
+    <h2>Faça sua Encomenda</h2>
+    <form action="#" method="post">
 
-<label for="endereco">Endereco:</label>
-<imput type="text" id="endereco" name="endereco" required>
+     <!-- Dados do Cliente -->
+     <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
 
-<label for="telefone">Telefone:</label>
-<imput type="tel" id="telefone" name="telefone" required>
+     <label for="endereco">Endereço:</label>
+     <input type="text" id="endereco" name="endereco" required>
 
-<label for="whatsapp">Whatsapp:</label>
-<imput type="tel" id="whatsapp" name="whatsapp" required>
+     <label for="telefone">Telefone:</label>
+     <input type="tel" id="telefone" name="telefone" required>
 
-<label for="produto">O que deseja encomendar?</label>
-<select id="produto" name="produto" required>
-  <option value="">Selecione uma opicao</option>
-  <option value="Coxinha">Coxinha</option>
-  <option value="Pastel">Pastel</option>
-  <option value="Quibe">quibe</option>
-</select>
+     <label for="whatsapp">WhatsApp:</label>
+     <input type="tel" id="whatsapp" name="whatsapp" required>
 
-<label for="Descrição">Descreva seu pedido:</label>
-<textarea id="Descrição" name="Descrição" rows="4" required></textarea>
+     <!-- Tipo de Produto -->
+     <label for="produto">0 que deseja encomendar?</label> 
+     <select id="produto" name="produto" required>
+       <option value="">Selecione uma opção</option>
+       <option value="bolos">Bolos</option>
+       <option value="salgados">Salgados</option> 
+       <option value="sobremesa">Sobremesa</option> 
+       <option value="outros">Outros</option>
+     </select>
+     
+     <!-- Descrição do Pedido -->
+     <label for="descricao">Descreva seu pedido:</label>
+     <textarea id="descricao" name="descricao" rows="4" required></textarea>
+    
+     <!-- Restrições Alimentares -->
+     <label for="restricao">Possui alguma restrição alimentar?</label>
+     <textarea id="restricao" name="restricao" rows="2" placeholder="Ex: sem lactose, sem glúten..."></textarea>
 
-<label for="restricao">posui alguma restricao alimentar?</label>
-<textarea id="restricao" name="restricao" rows="2" placeholder="sem lactose, sem gluten..."></textarea>
+     <!-- Forma de Pagamento -->
+     <label for="pagamento">Forma de pagamento:</label>
+     <select id="pagamento" name="pagamento" required>
+        <option value="">Selecione uma opção</option>
+        <option value="pix">Pix</option>
+        <option value="cartao">Cartão de Crédito</option>
+        <option value="boleto">Boleto</option>
+        <option value="dinheiro">Dinheiro na entrega</option>
+    </select>
 
-<label for="pagamento">forma de pagamento:</label>
-<select id="pagamento" name="pagamento" required>
-  <option value="" >selecionar uma opicao</option>
-  <option value="Pix" >pix</option>
-  <option value="Cartao" >Cartao de credito</option>
-  <option value="Boleto" >boleto</option>
-  <option value="Dinheiro" >Dinheiro na entrega</option>
-</select>
+     <!-- Data e Hora -->
+     <label for="data">Data da encomenda:</label>
+     <input type="date" id="data" name="data" required>
 
-<label for="data">data de encomenda:</label>
-<input type="data" id="data" name="data" required>
-
-<label for="hora">horario desejado:</label>
-<input type="time" id="hora" name="hora" required>
-
-<label for="entrega">como deseja receber</label>
-<select id="entrega" name="entrega" required>
-  <option value="">selecione uma opicao</option>
-  <option value="entrega">entrega</option>
-  <option value="retirada">retirada</option>
-</select>
-
-<button type="submit">enviar pedido</button>
-
-</form>
-</div>
-
+     <label for="hora">Horário desejado:</label>
+     <input type="time" id="hora" name="hora" required>
+     
+     <!-- Entrega ou Retirada -->
+      <label for="entrega">Como deseja receber:</label>
+      <select_id="entrega" name="entrega" required>
+        <option value="">Selecione uma opção</option>
+        <option value="entrega">Entrega</option>
+        <option value="retirada">Retirada</option>
+    </select>
+    
+    <!-- Botão de envio -->
+     <button type="submit">Enviar Pedido</button>
+    
+    </form>
+  </div>
