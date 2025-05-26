@@ -1,33 +1,102 @@
-table {
-          width: 100%;
-          border-collapse: collapse; /* Remove espaços entre as bordas */
-      }
-      th, td {
-          border: 2px solid black; /* Adiciona bordas às células */
-          padding: 8px; /* Adiciona espaçamento interno às células */
-          text-align: center;
-      }
-      th {
-          background-color: yellow; /* Cor de fundo para o cabeçalho */
-          color:black; /* Cor do texto no cabeçalho */
-    }
-    #receitas {
-        background-color: rgb(247, 255, 12);
-        border: 2px solidrgb(243, 243, 176)c;
-        padding: 20px;
-      }
-           
-      footer{
-        color: rgb(255, 251, 11);
-        background-color: rgb(6, 72, 39);
-        padding: 40px;
-      }
-
-    .titulo{
-            color: rgb(246, 255, 0);
-            font-weight: bold;
-            font-size: 18px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
+/* Estilo geral da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Banner */
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #ffcc70;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #4b2e00;
+  }
+  
+  /* Navegação */
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4b2e00;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #b85c00;
+  }
+  
+  /* Seções */
+  section {
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  section h1, section h2 {
+    color: #c95f00;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Tabelas */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ffd9a0;
+    color: #4b2e00;
+  }
+  
+  td a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #ffa500;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  td a:hover {
+    background-color: #cc8400;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc70;
+    color: #4b2e00;
+  }
         
